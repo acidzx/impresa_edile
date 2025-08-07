@@ -64,9 +64,9 @@ export default function Home() {
             in diversi settori di costruzione
           </p>
           <p className="mt-4 text-white max-w-4xl">
-            In quasi un secolo di storia l'impresa ha dimostrato di saper
+            In quasi un secolo di storia l&apos;impresa ha dimostrato di saper
             affrontare lavori con problematiche progettuali e realizzative molto
-            diverse fra loro sia nei lavori pubblici che nell'ambito di
+            diverse fra loro sia nei lavori pubblici che nell&apos;ambito di
             iniziative immobiliari private promosse da clienti nazionali ed
             internazionali.
           </p>
