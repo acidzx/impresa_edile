@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const navigation = {
   main: [
     { name: "Home", href: "/" },
@@ -77,26 +79,26 @@ export default function Footer() {
           className="-mb-6 flex flex-wrap justify-center gap-x-12 gap-y-3 text-sm/6"
         >
           {navigation.main.map((item) => (
-            <a
+            <Link
               key={item.name}
               href={item.href}
               className="text-white hover:text-lime-400"
             >
               {item.name}
-            </a>
+            </Link>
           ))}
         </nav>
 
         <div className="mt-16 flex justify-center gap-x-10">
           {navigation.social.map((item) => (
-            <a
+            <Link
               key={item.name}
               href={item.href}
               className="text-white hover:text-lime-400"
             >
               <span className="sr-only">{item.name}</span>
               <item.icon aria-hidden="true" className="size-6" />
-            </a>
+            </Link>
           ))}
         </div>
         <div className="mx-auto w-fit my-6 text-lime-400 text-center ">
