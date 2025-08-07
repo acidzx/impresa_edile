@@ -27,12 +27,12 @@ export default function Home() {
             <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
               STED <span className="font-semibold">srl</span>
             </h1>
-            <h2 className="text-lg uppercase font-semibold">
+            <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-4">
               etica e professionalità nella costruzione
             </h2>
-            <p>Oltre 1.200 opere edilizie eseguite a Milano e provincia.</p>
+            <p>Oltre 1.200 opere edilizie eseguite a Napoli e provincia.</p>
             <p>
-              Da oltre 90 anni costruiamo il territorio milanese: passione,
+              Da oltre 90 anni costruiamo il territorio napoletano: passione,
               entusiasmo, impegno e forte senso di responsabilità. Valori e
               principi che si tramandano da tre generazioni.
             </p>
@@ -101,12 +101,12 @@ export default function Home() {
             <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
               STED <span className="font-semibold">srl</span>
             </h1>
-            <h2 className="text-lg uppercase font-semibold">
+            <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-4">
               etica e professionalità nella costruzione
             </h2>
-            <p>Oltre 1.200 opere edilizie eseguite a Milano e provincia.</p>
+            <p>Oltre 1.200 opere edilizie eseguite a Napoli e provincia.</p>
             <p>
-              Da oltre 90 anni costruiamo il territorio milanese: passione,
+              Da oltre 90 anni costruiamo il territorio napoletano: passione,
               entusiasmo, impegno e forte senso di responsabilità. Valori e
               principi che si tramandano da tre generazioni.
             </p>
@@ -131,12 +131,12 @@ export default function Home() {
             <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
               STED <span className="font-semibold">srl</span>
             </h1>
-            <h2 className="text-lg uppercase font-semibold">
+            <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-4">
               etica e professionalità nella costruzione
             </h2>
-            <p>Oltre 1.200 opere edilizie eseguite a Milano e provincia.</p>
+            <p>Oltre 1.200 opere edilizie eseguite a Napoli e provincia.</p>
             <p>
-              Da oltre 90 anni costruiamo il territorio milanese: passione,
+              Da oltre 90 anni costruiamo il territorio napoletano: passione,
               entusiasmo, impegno e forte senso di responsabilità. Valori e
               principi che si tramandano da tre generazioni.
             </p>

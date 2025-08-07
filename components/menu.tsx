@@ -5,10 +5,8 @@ import { Dialog, DialogPanel } from "@headlessui/react";
 import { MenuIcon, XIcon } from "lucide-react";
 
 const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Home", href: "/" },
+  { name: "Contatti", href: "/contatti" },
 ];
 
 export default function Menu() {
@@ -20,13 +18,16 @@ export default function Menu() {
         aria-label="Global"
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
       >
-        <a href="#" className="-m-1.5 p-1.5">
-          <span className="sr-only">Your Company</span>
-          <img
+        <a href="/" className="-m-1.5 p-1.5">
+          <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
+            STED <span className="font-semibold">srl</span>
+          </h1>
+          <span className="sr-only">Sted Srl</span>
+          {/* <img
             alt=""
-            src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+            src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=lime&shade=400"
             className="h-8 w-auto"
-          />
+          /> */}
         </a>
         <div className="flex lg:hidden">
           <button
@@ -43,14 +44,11 @@ export default function Menu() {
             <a
               key={item.name}
               href={item.href}
-              className="text-sm/6 font-semibold text-gray-900"
+              className="text-sm/6 font-semibold text-gray-900 hover:text-lime-500"
             >
               {item.name}
             </a>
           ))}
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
-            Log in <span aria-hidden="true">&rarr;</span>
-          </a>
         </div>
       </nav>
       <Dialog
@@ -62,12 +60,15 @@ export default function Menu() {
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <img
+              <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
+                STED <span className="font-semibold">srl</span>
+              </h1>
+              <span className="sr-only">Sted Srl</span>
+              {/* <img
                 alt=""
-                src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+                src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=lime&shade=400"
                 className="h-8 w-auto"
-              />
+              /> */}
             </a>
             <button
               type="button"
@@ -90,14 +91,6 @@ export default function Menu() {
                     {item.name}
                   </a>
                 ))}
-              </div>
-              <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                >
-                  Log in
-                </a>
               </div>
             </div>
           </div>

@@ -1,11 +1,7 @@
 const navigation = {
   main: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
-    { name: "Accessibility", href: "#" },
-    { name: "Partners", href: "#" },
+    { name: "Home", href: "/" },
+    { name: "Contatti", href: "/contatti" },
   ],
   social: [
     {
@@ -90,6 +86,7 @@ export default function Footer() {
             </a>
           ))}
         </nav>
+
         <div className="mt-16 flex justify-center gap-x-10">
           {navigation.social.map((item) => (
             <a
@@ -101,6 +98,17 @@ export default function Footer() {
               <item.icon aria-hidden="true" className="size-6" />
             </a>
           ))}
+        </div>
+        <div className="mx-auto w-fit my-6 text-lime-400 text-center ">
+          <p>
+            <span className="font-semibold">STED srl</span> |{" "}
+            <span className="text-sm">P.Iva 10521091214</span>
+          </p>
+          <p>
+            <span className="text-sm">
+              Via G.Parisi, 30 - 80022 Arzano (Napoli)
+            </span>
+          </p>
         </div>
         <p className="mt-10 text-center text-sm/6 text-white">
           &copy; 2025 STED srl, Inc. All rights reserved.
