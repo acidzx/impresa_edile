@@ -30,7 +30,7 @@ export default function Menu() {
             src="/logo.svg"
             width={200}
             height={100}
-            className="h-14 w-auto"
+            className="h-16 w-auto"
           />
         </Link>
         <div className="flex lg:hidden">
