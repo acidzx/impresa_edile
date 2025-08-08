@@ -22,7 +22,7 @@ export default function Header() {
           <div className="flex justify-end mr-1">
             <div className="mt-8 flex items-center gap-4 pr-0.5  -skew-x-6 w-fit px-4  py-1">
               <span className="text-sm font-semibold skew-x-6">SCOPRI</span>{" "}
-              <div className="h-9 w-9 bg-[rgb(118,255,0)] rounded-full border-2 border-black flex items-center justify-center skew-x-6">
+              <div className="h-7 w-7 bg-[rgb(118,255,0)] rounded-full border-2 border-black flex items-center justify-center skew-x-6">
                 {" "}
                 <ChevronDownIcon className="h-6 w-6 text-black" />{" "}
               </div>{" "}
