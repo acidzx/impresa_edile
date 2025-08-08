@@ -412,7 +412,7 @@ export default function Home() {
               ripristinando funzionalità, estetica e sicurezza. I nostri
               interventi includono:
             </p>
-            <ul>
+            <ul className="list list-disc list-outside pl-6">
               <li>
                 Rifacimento e tinteggiatura facciate esterne, con cicli
                 professionali anticorrosivi e antiumidità
