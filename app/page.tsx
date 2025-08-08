@@ -75,7 +75,7 @@ export default function Home() {
               STED <span className="font-semibold">srl</span>
             </h1>
             <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
-              etica e professionalità nella costruzione
+              etica e serietà nella costruzione
             </h2>
             <p className="font-semibold">La nostra impresa edile a Napoli.</p>
             <p>
@@ -116,7 +116,7 @@ export default function Home() {
               STED <span className="font-semibold">srl</span>
             </h1>
             <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
-              etica e professionalità nella costruzione
+              professionalità e cura nella costruzione
             </h2>
             <p className="font-semibold">La nostra impresa edile a Napoli.</p>
             <p>
