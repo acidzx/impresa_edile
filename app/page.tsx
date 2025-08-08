@@ -400,21 +400,49 @@ export default function Home() {
               LIFTING FABBRICATI
             </h2>
             <p>
-              La nostra impresa edile vanta una consolidata esperienza nel
-              settore delle costruzioni a Napoli e provincia, con interventi
-              specializzati che spaziano dagli scavi e fondazioni fino alla
-              realizzazione di strutture di supporto per impianti industriali ad
-              alta tecnologia. Nel corso degli anni abbiamo eseguito opere edili
-              complesse, distinguendoci per l&apos;affidabilità e l’attenzione
-              ai dettagli in ogni fase del progetto. In particolare, siamo
-              specializzati nella costruzione di basi, platee e fondazioni
-              armate per macchinari industriali a controllo numerico (CNC),
-              garantendo la massima precisione, stabilità e durata nel tempo.
+              Siamo specializzati nel lifting di fabbricati a Napoli e
+              provincia, con interventi mirati al rifacimento delle facciate, al
+              ripristino delle strutture in calcestruzzo e al consolidamento
+              statico degli edifici, sia residenziali che industriali.
             </p>
             <p>
-              Da oltre 90 anni costruiamo il territorio napoletano: passione,
-              entusiasmo, impegno e forte senso di responsabilità. Valori e
-              principi che si tramandano da tre generazioni.
+              Grazie a un&apos;esperienza pluridecennale nel settore
+              dell’edilizia e all’utilizzo di prodotti certificati di altissima
+              qualità, interveniamo su edifici ammalorati o obsoleti,
+              ripristinando funzionalità, estetica e sicurezza. I nostri
+              interventi includono:
+            </p>
+            <ul>
+              <li>
+                Rifacimento e tinteggiatura facciate esterne, con cicli
+                professionali anticorrosivi e antiumidità
+              </li>
+              <li>Ripristino di frontalini, balconi e cornicioni</li>
+              <li>
+                Consolidamento strutturale con tecniche tradizionali o
+                innovative
+              </li>
+              <li>
+                Trattamento e ripristino armature metalliche ossidate, con malte
+                tixotropiche e protettivi specifici
+              </li>
+              <li>
+                Impermeabilizzazioni e coibentazioni termiche a cappotto, dove
+                richiesto
+              </li>
+            </ul>
+            <p>
+              Ogni lavorazione viene eseguita nel pieno rispetto delle normative
+              vigenti, con attenzione alla durabilità, alla qualità estetica e
+              alla sicurezza degli occupanti.
+            </p>
+            <p>
+              Siamo il partner ideale per amministratori di condominio, tecnici
+              progettisti, privati e imprese che cercano un interlocutore unico
+              e affidabile per la riqualificazione strutturale ed estetica degli
+              immobili. Contattaci per un sopralluogo gratuito e ricevi una
+              proposta personalizzata per il lifting del tuo fabbricato, con
+              soluzioni durature e materiali all&apos;avanguardia.
             </p>
             <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
               SCOPRI CHI SIAMO
