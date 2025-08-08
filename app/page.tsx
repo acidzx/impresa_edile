@@ -27,14 +27,16 @@ export default function Home() {
             <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
               STED <span className="font-semibold">srl</span>
             </h1>
-            <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-4">
+            <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
               etica e professionalità nella costruzione
             </h2>
-            <p>Oltre 1.200 opere edilizie eseguite a Napoli e provincia.</p>
+            <p className="font-semibold">La nostra impresa edile a Napoli.</p>
             <p>
-              Da oltre 90 anni costruiamo il territorio napoletano: passione,
-              entusiasmo, impegno e forte senso di responsabilità. Valori e
-              principi che si tramandano da tre generazioni.
+              Con oltre 50 anni di esperienza nel settore delle costruzioni a
+              Napoli e provincia, la nostra impresa edile si distingue per
+              l’eccellenza, la serietà e la competenza. Abbiamo realizzato
+              centinaia di opere edilizie, contribuendo attivamente allo
+              sviluppo del territorio napoletano.
             </p>
             <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
               SCOPRI CHI SIAMO
@@ -57,34 +59,36 @@ export default function Home() {
           <h1 className="text-2xl text-white font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
             STED <span className="font-semibold">srl</span>
           </h1>
-          <p className="px-4 py-2 bg-lime-200 w-fit mt-4 font-semibold">
+          <p className="p-2 bg-lime-200 w-fit mt-4 font-semibold">
             ESPERIENZA CONSOLIDATA
           </p>
           <p className="text-2xl uppercase text-white mt-4">
             in diversi settori di costruzione
           </p>
           <p className="mt-4 text-white max-w-4xl">
-            In quasi un secolo di storia l&apos;impresa ha dimostrato di saper
-            affrontare lavori con problematiche progettuali e realizzative molto
-            diverse fra loro sia nei lavori pubblici che nell&apos;ambito di
-            iniziative immobiliari private promosse da clienti nazionali ed
-            internazionali.
+            Passione, impegno, responsabilità e professionalità sono i valori
+            che guidano ogni nostro progetto, tramandati da due generazioni e
+            radicati nella nostra cultura aziendale. Scegliere la nostra impresa
+            significa affidarsi a un team con una lunga tradizione nella
+            costruzione e ristrutturazione di edifici civili e industriali,
+            capace di offrire soluzioni su misura con la massima qualità e
+            attenzione al cliente.
           </p>
           <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm mt-6">
             SCOPRI OPERE E SETTORI
           </p>
           <div className="w-full grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 mt-12 text-white">
             <div className="border-x-2 border-[rgb(118,255,0)] p-4">
-              FEATURE 1
+              Costruzioni industriali
             </div>
             <div className="border-r-2 border-[rgb(118,255,0)] p-4">
-              FEATURE 2
+              Costruzioni civili
             </div>
             <div className="border-x-2 lg:border-r-2 border-[rgb(118,255,0)] p-4">
-              FEATURE 3
+              Ristrutturazione di appartamenti
             </div>
             <div className="border-r-2 border-[rgb(118,255,0)] p-4">
-              FEATURE 4
+              Rifacimento facciate di fabbricati
             </div>
           </div>
 
@@ -101,17 +105,33 @@ export default function Home() {
             <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
               STED <span className="font-semibold">srl</span>
             </h1>
-            <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-4">
-              etica e professionalità nella costruzione
+            <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
+              chi siamo
             </h2>
             <p>Oltre 1.200 opere edilizie eseguite a Napoli e provincia.</p>
             <p>
-              Da oltre 90 anni costruiamo il territorio napoletano: passione,
-              entusiasmo, impegno e forte senso di responsabilità. Valori e
-              principi che si tramandano da tre generazioni.
+              La STED Srl nasce dall’esperienza e dalla passione per l’edilizia
+              del Geometra Antonio Lanzano, che nel 1990 ha scelto di
+              raccogliere e proseguire l’eredità professionale del padre, il
+              Geometra Gioacchino Lanzano, figura storica e stimata nel panorama
+              edilizio di Arzano.
             </p>
-            <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
-              SCOPRI CHI SIAMO
+            <p>
+              In oltre trent’anni di attività, l’azienda ha saputo evolversi e
+              consolidarsi, sviluppando competenze trasversali in diversi
+              settori dell’edilizia. Oggi STED è un punto di riferimento per:
+            </p>
+            <ul className="list list-disc list-outside pl-6">
+              <li>Costruzioni industriali</li>
+              <li>Costruzioni civili</li>
+              <li>Ristrutturazione di appartamenti</li>
+              <li>Rifacimento facciate di fabbricati</li>
+            </ul>
+            <p>
+              Serietà, competenza e attenzione al cliente sono i valori che
+              guidano ogni nostro progetto, con l’obiettivo di garantire
+              soluzioni affidabili e di qualità nel rispetto dei tempi e delle
+              esigenze specifiche di ogni committente.
             </p>
           </div>
         </div>
@@ -131,7 +151,7 @@ export default function Home() {
             <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
               STED <span className="font-semibold">srl</span>
             </h1>
-            <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-4">
+            <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
               etica e professionalità nella costruzione
             </h2>
             <p>Oltre 1.200 opere edilizie eseguite a Napoli e provincia.</p>
