@@ -131,7 +131,7 @@ export default function Home() {
               Serietà, competenza e attenzione al cliente sono i valori che
               guidano ogni nostro progetto, con l’obiettivo di garantire
               soluzioni affidabili e di qualità nel rispetto dei tempi e delle
-              esigenze specifiche di ogni committente.
+              esigenze specifiche di ogni committente.
             </p>
           </div>
         </div>
