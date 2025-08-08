@@ -111,7 +111,7 @@ export default function Home() {
         </div>
         <div className="w-full lg:w-1/2">
           <Image
-            src="https://grassiecrespi.it/images/_MG_1205.png"
+            src="/img2.jpg"
             alt="logo"
             width={1000}
             height={1000}
@@ -159,7 +159,7 @@ export default function Home() {
         </div>
         <div className="w-full lg:w-1/2">
           <Image
-            src="https://grassiecrespi.it/images/_MG_1205.png"
+            src="/img3.jpg"
             alt="logo"
             width={1000}
             height={1000}
