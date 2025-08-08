@@ -138,6 +138,16 @@ export default function Page() {
                     +39 333 840-833
                   </Link>
                 </dd>
+              </div>
+              <div className="flex gap-x-4">
+                <dt className="flex-none">
+                  <span className="sr-only">Telephone</span>
+                  <PhoneIcon
+                    aria-hidden="true"
+                    className="h-7 w-6 text-white"
+                  />
+                </dt>
+
                 <dd>
                   <Link href="tel:+39 3315240939" className="hover:text-white">
                     +39 331 524-0939
@@ -165,6 +175,21 @@ export default function Page() {
                     stedsrl24@gmail.com
                   </Link>
                 </dd> */}
+              </div>
+              <div className="flex gap-x-4">
+                <dt className="flex-none">
+                  <span className="sr-only">Email</span>
+                  <MailIcon aria-hidden="true" className="h-7 w-6 text-white" />
+                </dt>
+
+                <dd>
+                  <Link
+                    href="mailto:stedsrl24@gmail.com"
+                    className="hover:text-white"
+                  >
+                    stedsrl24@gmail.com
+                  </Link>
+                </dd>
               </div>
             </dl>
           </div>
