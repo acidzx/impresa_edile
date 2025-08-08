@@ -274,6 +274,66 @@ export default function Home() {
               STED <span className="font-semibold">srl</span>
             </h1>
             <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
+              COSTRUZIONI INDUSTRIALI
+            </h2>
+            <p>
+              La nostra impresa realizza pavimentazioni e rivestimenti in resina
+              epossidica e poliuretanica, soluzioni avanzate ideali per ambienti
+              industriali, commerciali e residenziali che richiedono elevate
+              prestazioni meccaniche, resistenza chimica e durata nel tempo. Le
+              resine epossidiche e poliuretaniche rappresentano una scelta
+              eccellente per chi desidera superfici continue, facili da pulire e
+              dall’alto valore estetico. Grazie alla nostra esperienza e all’uso
+              di materiali certificati, siamo in grado di realizzare
+              rivestimenti perfettamente aderenti, impermeabili e resistenti
+              all’usura, anche in condizioni estreme. Le applicazioni più
+              richieste includono:
+            </p>
+
+            <ul className="list list-disc list-outside pl-6">
+              <li>Pavimenti industriali e magazzini ad alto traffico</li>
+              <li>Laboratori, officine, autorimesse e centrali tecniche</li>
+              <li>Spazi commerciali, showroom e ambienti alimentari</li>
+              <li>
+                Interventi di impermeabilizzazione con resine bicomponenti
+              </li>
+              <li>
+                Risanamenti localizzati o trattamenti di consolidamento del
+                calcestruzzo
+              </li>
+            </ul>
+            <p>
+              In base alle esigenze funzionali e al tipo di ambiente, proponiamo
+              soluzioni personalizzate con resine a film sottile, multistrato o
+              autolivellanti, disponibili in varie finiture e colorazioni. Tutti
+              i nostri interventi sono eseguiti da personale qualificato e con
+              l’uso di resine di alta qualità, selezionate per garantire massima
+              resa, estetica e durabilità. Contattaci per una consulenza tecnica
+              gratuita: saremo lieti di aiutarti a scegliere il tipo di
+              rivestimento in resina più adatto al tuo progetto.
+            </p>
+            <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
+              SCOPRI CHI SIAMO
+            </p>
+          </div>
+        </div>
+        <div className="w-full lg:w-1/2">
+          <Image
+            src="https://grassiecrespi.it/images/_MG_1205.png"
+            alt="logo"
+            width={1000}
+            height={1000}
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+      <div className="flex flex-col lg:flex-row w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
+        <div className="w-full lg:w-1/2 ">
+          <div className="flex flex-col gap-y-4">
+            <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
+              STED <span className="font-semibold">srl</span>
+            </h1>
+            <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
               COSTRUZIONI CIVILI
             </h2>
             <p>
@@ -330,7 +390,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
+      <div className="flex flex-col lg:flex-row-reverse w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
         <div className="w-full lg:w-1/2 ">
           <div className="flex flex-col gap-y-4">
             <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
@@ -390,7 +450,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row-reverse w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
+      <div className="flex flex-col lg:flex-row w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
         <div className="w-full lg:w-1/2 ">
           <div className="flex flex-col gap-y-4">
             <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
