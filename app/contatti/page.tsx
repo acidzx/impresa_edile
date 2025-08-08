@@ -1,8 +1,55 @@
 "use client";
 import { Building2Icon, MailIcon, PhoneIcon } from "lucide-react";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Page() {
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phoneNumber: "",
+    message: "",
+  });
+  const [status, setStatus] = useState(""); // '' | 'sending' | 'success' | 'error:...'
+
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setStatus("sending");
+
+    try {
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setStatus("success");
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          phoneNumber: "",
+          message: "",
+        });
+      } else {
+        const errorData = await response.json();
+        setStatus(`error: ${errorData.message || "Qualcosa è andato storto."}`);
+      }
+    } catch (error) {
+      setStatus("error: Impossibile connettersi al server.");
+    }
+  };
   return (
     <div className="relative isolate bg-lime-950">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
@@ -123,8 +170,7 @@ export default function Page() {
           </div>
         </div>
         <form
-          action="#"
-          method="POST"
+          onSubmit={handleSubmit}
           className="px-6 pt-20 pb-24 sm:pb-32 lg:px-8 lg:py-48 "
         >
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
@@ -138,10 +184,13 @@ export default function Page() {
                 </label>
                 <div className="mt-2.5">
                   <input
-                    id="first-name"
-                    name="first-name"
+                    id="firstName"
+                    name="firstName"
                     type="text"
                     autoComplete="given-name"
+                    value={formData.firstName}
+                    onChange={handleChange}
+                    required
                     className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-lime-500"
                   />
                 </div>
@@ -155,10 +204,13 @@ export default function Page() {
                 </label>
                 <div className="mt-2.5">
                   <input
-                    id="last-name"
-                    name="last-name"
+                    id="lastName"
+                    name="lastName"
                     type="text"
                     autoComplete="family-name"
+                    value={formData.lastName}
+                    onChange={handleChange}
+                    required
                     className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-lime-500"
                   />
                 </div>
@@ -176,6 +228,9 @@ export default function Page() {
                     name="email"
                     type="email"
                     autoComplete="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
                     className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-lime-500"
                   />
                 </div>
@@ -189,10 +244,12 @@ export default function Page() {
                 </label>
                 <div className="mt-2.5">
                   <input
-                    id="phone-number"
-                    name="phone-number"
+                    id="phoneNumber"
+                    name="phoneNumber"
                     type="tel"
                     autoComplete="tel"
+                    value={formData.phoneNumber}
+                    onChange={handleChange}
                     className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-lime-500"
                   />
                 </div>
@@ -209,8 +266,10 @@ export default function Page() {
                     id="message"
                     name="message"
                     rows={4}
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
                     className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-lime-500"
-                    defaultValue={""}
                   />
                 </div>
               </div>
@@ -218,10 +277,19 @@ export default function Page() {
             <div className="mt-8 flex justify-end">
               <button
                 type="submit"
-                className="rounded-md bg-lime-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500"
+                disabled={status === "sending"}
+                className="rounded-md bg-lime-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-lime-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-500 disabled:cursor-not-allowed disabled:bg-gray-400"
               >
                 Invia messaggio
               </button>
+            </div>
+            <div className="mt-4 h-6 text-center">
+              {status === "success" && (
+                <p className="text-lime-400">Messaggio inviato con successo!</p>
+              )}
+              {status.startsWith("error:") && (
+                <p className="text-red-500">{status.replace("error: ", "")}</p>
+              )}
             </div>
           </div>
         </form>
