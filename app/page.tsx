@@ -76,15 +76,15 @@ export default function Home() {
           </p>
           <p className="mt-4 text-white max-w-4xl">
             Con oltre mezzo secolo di attività, la nostra impresa edile a Napoli
-            vanta un'esperienza solida e trasversale in diversi ambiti della
-            costruzione e ristrutturazione, sia nel settore pubblico che in
-            quello privato. Abbiamo affrontato con successo progetti complessi,
-            caratterizzati da sfide progettuali e realizzative di varia natura,
-            operando con la stessa professionalità sia nei lavori pubblici che
-            in iniziative immobiliari private, promosse da clienti nazionali e
-            internazionali. La nostra competenza spazia dalle costruzioni civili
-            e industriali alle riqualificazioni urbane, offrendo soluzioni su
-            misura per ogni esigenza costruttiva.
+            vanta un&apos;esperienza solida e trasversale in diversi ambiti
+            della costruzione e ristrutturazione, sia nel settore pubblico che
+            in quello privato. Abbiamo affrontato con successo progetti
+            complessi, caratterizzati da sfide progettuali e realizzative di
+            varia natura, operando con la stessa professionalità sia nei lavori
+            pubblici che in iniziative immobiliari private, promosse da clienti
+            nazionali e internazionali. La nostra competenza spazia dalle
+            costruzioni civili e industriali alle riqualificazioni urbane,
+            offrendo soluzioni su misura per ogni esigenza costruttiva.
           </p>
           <p>
             Contattaci oggi stesso per una consulenza personalizzata o un
