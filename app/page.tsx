@@ -62,6 +62,50 @@ export default function Home() {
           />
         </div>
       </div>
+      <div className="flex flex-col lg:flex-row-reverse w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
+        <div className="w-full lg:w-1/2 ">
+          <div className="flex flex-col gap-y-4">
+            <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
+              STED <span className="font-semibold">srl</span>
+            </h1>
+            <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
+              etica e professionalità nella costruzione
+            </h2>
+            <p className="font-semibold">La nostra impresa edile a Napoli.</p>
+            <p>
+              Da oltre 50 anni operiamo nel settore dell’edilizia a Napoli e
+              provincia, realizzando centinaia di opere edilizie con competenza,
+              affidabilità e un forte senso di responsabilità. Siamo un’impresa
+              a conduzione familiare, giunta alla seconda generazione, che ha
+              fatto della qualità costruttiva e della cura del cliente i propri
+              punti di forza. Siamo specializzati nella ristrutturazione di
+              condomini, con interventi mirati che rispettano le normative
+              vigenti, migliorano l’efficienza energetica e valorizzano l’intero
+              edificio. Offriamo un servizio completo: dalla progettazione alla
+              gestione dei cantieri, fino alla consegna finale, con attenzione a
+              tempistiche, costi e risultati.
+            </p>
+            <p>
+              Etica professionale, passione, impegno e serietà sono i valori che
+              ci contraddistinguono. Affidati a noi per costruzioni edili,
+              ristrutturazioni condominiali, manutenzioni straordinarie e
+              interventi di riqualificazione nel territorio napoletano.
+            </p>
+            <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
+              CONTATTACI
+            </p>
+          </div>
+        </div>
+        <div className="w-full lg:w-1/2">
+          <Image
+            src="https://grassiecrespi.it/images/_MG_1205.png"
+            alt="logo"
+            width={1000}
+            height={1000}
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
 
       <div className="flex flex-col w-full bg-black min-h-96 py-12 px-4">
         <div className="w-full max-w-screen-2xl mx-auto">
@@ -173,8 +217,16 @@ export default function Home() {
               ESPERIENZA E COMPETENZA
             </h2>
             <p>
-              Esperienza e competenza in costruzioni edili, scavi, fondazioni e
-              strutture per macchine CNC
+              La nostra impresa edile vanta una consolidata esperienza nel
+              settore delle costruzioni a Napoli e provincia, con interventi
+              specializzati che spaziano dagli scavi e fondazioni fino alla
+              realizzazione di strutture di supporto per impianti industriali ad
+              alta tecnologia. Nel corso degli anni abbiamo eseguito opere edili
+              complesse, distinguendoci per l'affidabilità e l’attenzione ai
+              dettagli in ogni fase del progetto. In particolare, siamo
+              specializzati nella costruzione di basi, platee e fondazioni
+              armate per macchinari industriali a controllo numerico (CNC),
+              garantendo la massima precisione, stabilità e durata nel tempo.
             </p>
             <p>
               Da oltre 90 anni costruiamo il territorio napoletano: passione,
