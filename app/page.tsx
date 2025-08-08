@@ -352,7 +352,7 @@ export default function Home() {
         </div>
         <div className="w-full lg:w-1/2">
           <Image
-            src="/img5.jpg"
+            src="/img67.jpg"
             alt="logo"
             width={1000}
             height={1000}
@@ -419,7 +419,7 @@ export default function Home() {
         </div>
         <div className="w-full lg:w-1/2">
           <Image
-            src="/img6.jpg"
+            src="/img8.jpg"
             alt="logo"
             width={1000}
             height={1000}
@@ -560,7 +560,7 @@ export default function Home() {
         </div>
         <div className="w-full lg:w-1/2">
           <Image
-            src="/img8.jpg"
+            src="/img5.jpg"
             alt="logo"
             width={1000}
             height={1000}
