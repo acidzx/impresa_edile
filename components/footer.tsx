@@ -105,7 +105,7 @@ export default function Footer() {
         <div className="mx-auto w-fit my-6 text-white text-center ">
           <Image
             alt=""
-            src="/risorsa_4.svg"
+            src="/logob.svg"
             width={200}
             height={100}
             className="h-16 w-auto mx-auto mb-6"

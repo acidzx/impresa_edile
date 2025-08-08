@@ -1,6 +1,7 @@
 import Header from "@/components/header";
 import ImageGrid from "@/components/imageGrid";
 import Image from "next/image";
+import Link from "next/link";
 
 const images = [
   "/gallery/1.jpg",
@@ -104,9 +105,11 @@ export default function Home() {
               industriali, capace di offrire soluzioni su misura con la massima
               qualità e attenzione al cliente.
             </p>
-            <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
-              CONTATTACI
-            </p>
+            <Link href="/contatti">
+              <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
+                CONTATTACI
+              </p>
+            </Link>
           </div>
         </div>
         <div className="w-full lg:w-1/2">
@@ -152,9 +155,11 @@ export default function Home() {
               ristrutturazioni condominiali, manutenzioni straordinarie e
               interventi di riqualificazione nel territorio napoletano.
             </p>
-            <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
-              CONTATTACI
-            </p>
+            <Link href="/contatti">
+              <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
+                CONTATTACI
+              </p>
+            </Link>
           </div>
         </div>
         <div className="w-full lg:w-1/2">
@@ -197,9 +202,11 @@ export default function Home() {
             esigenze e offrirti la migliore soluzione per i tuoi progetti edili
             a Napoli e provincia.
           </p>
-          <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm mt-6">
-            CONTATTACI
-          </p>
+          <Link href="/contatti">
+            <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm mt-6">
+              CONTATTACI
+            </p>
+          </Link>
           <div className="w-full grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 mt-12 text-white">
             <div className="border-x-2 border-[rgb(118,255,0)] p-4">
               Costruzioni industriali
@@ -270,9 +277,11 @@ export default function Home() {
               consulenza o un preventivo gratuito: saremo lieti di mettere la
               nostra esperienza al servizio del tuo progetto.
             </p>
-            <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
-              SCOPRI CHI SIAMO
-            </p>
+            <Link href="/contatti">
+              <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
+                CONTATTACI
+              </p>
+            </Link>
           </div>
         </div>
         <div className="w-full lg:w-1/2">
@@ -334,9 +343,11 @@ export default function Home() {
               gratuita: saremo lieti di aiutarti a scegliere il tipo di
               rivestimento in resina più adatto al tuo progetto.
             </p>
-            <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
-              SCOPRI CHI SIAMO
-            </p>
+            <Link href="/contatti">
+              <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
+                CONTATTACI
+              </p>
+            </Link>
           </div>
         </div>
         <div className="w-full lg:w-1/2">
@@ -465,9 +476,11 @@ export default function Home() {
               della ristrutturazione del tuo appartamento, con serietà,
               competenza e qualità superiore.
             </p>
-            <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
-              SCOPRI CHI SIAMO
-            </p>
+            <Link href="/contatti">
+              <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
+                CONTATTACI
+              </p>
+            </Link>
           </div>
         </div>
         <div className="w-full lg:w-1/2">
@@ -538,9 +551,11 @@ export default function Home() {
               proposta personalizzata per il lifting del tuo fabbricato, con
               soluzioni durature e materiali all&apos;avanguardia.
             </p>
-            <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
-              SCOPRI CHI SIAMO
-            </p>
+            <Link href="/contatti">
+              <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
+                CONTATTACI
+              </p>
+            </Link>
           </div>
         </div>
         <div className="w-full lg:w-1/2">
