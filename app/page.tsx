@@ -277,7 +277,7 @@ export default function Home() {
         </div>
         <div className="w-full lg:w-1/2">
           <Image
-            src="https://grassiecrespi.it/images/_MG_1205.png"
+            src="/img4.jpg"
             alt="logo"
             width={1000}
             height={1000}
@@ -341,7 +341,7 @@ export default function Home() {
         </div>
         <div className="w-full lg:w-1/2">
           <Image
-            src="https://grassiecrespi.it/images/_MG_1205.png"
+            src="/img5.jpg"
             alt="logo"
             width={1000}
             height={1000}
@@ -401,14 +401,14 @@ export default function Home() {
                 trasparenza e qualità certificata.
               </p>
             </ul>
-            <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
+            {/* <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
               SCOPRI CHI SIAMO
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="w-full lg:w-1/2">
           <Image
-            src="https://grassiecrespi.it/images/_MG_1205.png"
+            src="/img6.jpg"
             alt="logo"
             width={1000}
             height={1000}
