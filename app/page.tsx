@@ -24,13 +24,19 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row-reverse w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col gap-y-4">
-            <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
-              STED <span className="font-semibold">srl</span>
-            </h1>
+            <Image
+              alt=""
+              src="/logow.svg"
+              width={100}
+              height={100}
+              className="h-6"
+            />
             <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
               chi siamo
             </h2>
-            <p>Centinaia di opere edilizie eseguite a Napoli e provincia.</p>
+            <p className="font-semibold">
+              Centinaia di opere edilizie eseguite a Napoli e provincia.
+            </p>
             <p>
               La STED Srl nasce dall’esperienza e dalla passione per l’edilizia
               del Geometra Antonio Lanzano, che nel 1990 ha scelto di
@@ -71,9 +77,13 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
         <div className="w-full lg:w-1/2 ">
           <div className="flex flex-col gap-y-4">
-            <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
-              STED <span className="font-semibold">srl</span>
-            </h1>
+            <Image
+              alt=""
+              src="/logow.svg"
+              width={100}
+              height={100}
+              className="h-6"
+            />
             <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
               etica e serietà nella costruzione
             </h2>
@@ -112,9 +122,13 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row-reverse w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
         <div className="w-full lg:w-1/2 ">
           <div className="flex flex-col gap-y-4">
-            <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
-              STED <span className="font-semibold">srl</span>
-            </h1>
+            <Image
+              alt=""
+              src="/logow.svg"
+              width={100}
+              height={100}
+              className="h-6"
+            />
             <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
               professionalità e cura nella costruzione
             </h2>
@@ -212,9 +226,13 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
         <div className="w-full lg:w-1/2 ">
           <div className="flex flex-col gap-y-4">
-            <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
-              STED <span className="font-semibold">srl</span>
-            </h1>
+            <Image
+              alt=""
+              src="/logow.svg"
+              width={100}
+              height={100}
+              className="h-6"
+            />
             <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
               COSTRUZIONI INDUSTRIALI
             </h2>
@@ -270,9 +288,13 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row-reverse w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
         <div className="w-full lg:w-1/2 ">
           <div className="flex flex-col gap-y-4">
-            <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
-              STED <span className="font-semibold">srl</span>
-            </h1>
+            <Image
+              alt=""
+              src="/logow.svg"
+              width={100}
+              height={100}
+              className="h-6"
+            />
             <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
               COSTRUZIONI INDUSTRIALI
             </h2>
@@ -330,9 +352,13 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
         <div className="w-full lg:w-1/2 ">
           <div className="flex flex-col gap-y-4">
-            <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
-              STED <span className="font-semibold">srl</span>
-            </h1>
+            <Image
+              alt=""
+              src="/logow.svg"
+              width={100}
+              height={100}
+              className="h-6"
+            />
             <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
               COSTRUZIONI CIVILI
             </h2>
@@ -393,9 +419,13 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row-reverse w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
         <div className="w-full lg:w-1/2 ">
           <div className="flex flex-col gap-y-4">
-            <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
-              STED <span className="font-semibold">srl</span>
-            </h1>
+            <Image
+              alt=""
+              src="/logow.svg"
+              width={100}
+              height={100}
+              className="h-6"
+            />
             <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
               RISTRUTTURAZIONE DI APPARTAMENTI
             </h2>
@@ -453,9 +483,13 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
         <div className="w-full lg:w-1/2 ">
           <div className="flex flex-col gap-y-4">
-            <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
-              STED <span className="font-semibold">srl</span>
-            </h1>
+            <Image
+              alt=""
+              src="/logow.svg"
+              width={100}
+              height={100}
+              className="h-6"
+            />
             <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
               LIFTING FABBRICATI
             </h2>
