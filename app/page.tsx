@@ -1,5 +1,6 @@
 import Header from "@/components/header";
 import ImageGrid from "@/components/imageGrid";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,6 +17,12 @@ const images = [
   "/gallery/10.jpg",
   "/gallery/11.jpg",
 ];
+
+export const metadata: Metadata = {
+  title: "STED s.r.l. | Impresa edile Arzano(NA)",
+  description:
+    "Impresa edile di Arzano (Napoli). Da più di 50 anni costruiamo la storia del territorio Napoletano. Richiedici un preventivo gratuito.",
+};
 
 export default function Home() {
   return (
