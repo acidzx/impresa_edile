@@ -148,7 +148,7 @@ export default function Page() {
                 Aggiungi alla galleria della homepage
               </label>
               <p className="text-gray-500">
-                Aggiunge il tag 'galleria-sted' all'immagine.
+                Aggiunge il tag &apos;galleria-sted&apos; all&apos;immagine.
               </p>
             </div>
           </div>
