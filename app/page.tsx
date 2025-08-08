@@ -3,17 +3,14 @@ import ImageGrid from "@/components/imageGrid";
 import Image from "next/image";
 
 const images = [
-  "https://grassiecrespi.it/images/1_PANORAMICAL_VISTA01-REV00.jpg",
-  "https://grassiecrespi.it/images/05_Bocconi_Isonzo.jpg",
-  "https://grassiecrespi.it/images/5d1971e5-0a97-4278-ac37-4e4f41c2196a.JPG",
-  "https://grassiecrespi.it/images/Horti-3.jpg",
-  "https://grassiecrespi.it/images/IMG_2895_l.jpg",
-  "https://grassiecrespi.it/images/IMG_9634.png",
-  "https://grassiecrespi.it/images/PIRELLONE-1.jpg",
-  "https://grassiecrespi.it/images/VIA-PALERMO-2.jpg",
-  "https://grassiecrespi.it/images/_MG_1324-1.jpg",
-  "https://grassiecrespi.it/images/_MG_1380-1.jpg",
-  "https://grassiecrespi.it/images/_MG_7820-1.jpg",
+  "/gallery/1.jpg",
+  "/gallery/2.jpg",
+  "/gallery/3.jpg",
+  "/gallery/4.jpg",
+  "/gallery/5.jpg",
+  "/gallery/6.jpg",
+  "/gallery/7.jpg",
+  "/gallery/8.jpg",
 ];
 
 export default function Home() {
