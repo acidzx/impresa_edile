@@ -11,7 +11,7 @@ export default function Header() {
       <div>
         {" "}
         <div className="w-fit text-right bg-white/90 px-4 pb-8">
-          <h2 className="text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl px-4 py-2 inline bg-[rgb(118,255,0)] box-decoration-clone">
+          <h2 className="text-4xl  font-semibold tracking-tight text-gray-900 sm:text-7xl px-4 py-2 inline bg-[rgb(118,255,0)] box-decoration-clone">
             STED s.r.l.
           </h2>
           <div>

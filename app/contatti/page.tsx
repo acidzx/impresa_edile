@@ -104,12 +104,20 @@ export default function Page() {
                 </dt>
                 <dd>
                   <Link
+                    href="mailto:info@sted-srl.it"
+                    className="hover:text-white"
+                  >
+                    info@sted-srl.it
+                  </Link>
+                </dd>
+                {/* <dd>
+                  <Link
                     href="mailto:stedsrl24@gmail.com"
                     className="hover:text-white"
                   >
                     stedsrl24@gmail.com
                   </Link>
-                </dd>
+                </dd> */}
               </div>
             </dl>
           </div>
