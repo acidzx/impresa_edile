@@ -51,6 +51,8 @@ export async function POST(request: Request) {
       }
     );
 
+    console.log("Immagine caricata su Cloudinary:", uploadResponse);
+
     return NextResponse.json(
       { message: "Immagine caricata!", url: uploadResponse.secure_url },
       { status: 200 }

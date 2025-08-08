@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function UploadPage() {
+export default function Page() {
   const [file, setFile] = useState<File | null>(null);
   const [status, setStatus] = useState<
     "idle" | "uploading" | "success" | "error"
