@@ -233,7 +233,24 @@ export default function Home() {
             <p>
               Da oltre 90 anni costruiamo il territorio napoletano: passione,
               entusiasmo, impegno e forte senso di responsabilità. Valori e
-              principi che si tramandano da tre generazioni.
+              principi che si tramandano da tre generazioni. I nostri interventi
+              includono:
+            </p>
+            <ul className="list list-disc list-outside pl-6">
+              <li>Scavi e movimento terra per opere civili e industriali</li>
+              <li>Fondazioni speciali e strutture in cemento armato</li>
+              <li>
+                Realizzazione di strutture di servizio e supporto tecnico per
+                macchine CNC
+              </li>
+              <li>Costruzioni edili residenziali, commerciali e industriali</li>
+            </ul>
+            <p>
+              Grazie a un team qualificato e a mezzi propri all’avanguardia,
+              offriamo un servizio completo, puntuale e conforme alle normative
+              vigenti in materia di sicurezza e qualità. Contattaci per una
+              consulenza o un preventivo gratuito: saremo lieti di mettere la
+              nostra esperienza al servizio del tuo progetto.
             </p>
             <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
               SCOPRI CHI SIAMO
@@ -260,22 +277,44 @@ export default function Home() {
               COSTRUZIONI CIVILI
             </h2>
             <p>
-              La nostra impresa edile vanta una consolidata esperienza nel
-              settore delle costruzioni a Napoli e provincia, con interventi
-              specializzati che spaziano dagli scavi e fondazioni fino alla
-              realizzazione di strutture di supporto per impianti industriali ad
-              alta tecnologia. Nel corso degli anni abbiamo eseguito opere edili
-              complesse, distinguendoci per l&apos;affidabilità e l’attenzione
-              ai dettagli in ogni fase del progetto. In particolare, siamo
-              specializzati nella costruzione di basi, platee e fondazioni
-              armate per macchinari industriali a controllo numerico (CNC),
-              garantendo la massima precisione, stabilità e durata nel tempo.
+              La nostra impresa è specializzata nella realizzazione di
+              costruzioni civili di ogni tipologia, con oltre 50 anni di
+              esperienza nel settore edile a Napoli e in tutta la Campania.
+              Operiamo con competenza e precisione nella costruzione di edifici
+              residenziali, commerciali e pubblici, offrendo soluzioni su
+              misura, materiali di qualità e una gestione tecnica completa del
+              cantiere.
             </p>
             <p>
-              Da oltre 90 anni costruiamo il territorio napoletano: passione,
-              entusiasmo, impegno e forte senso di responsabilità. Valori e
-              principi che si tramandano da tre generazioni.
+              Ogni progetto viene seguito in tutte le sue fasi, dalla
+              progettazione esecutiva alla consegna finale, con particolare
+              attenzione a:
             </p>
+            <ul className="list list-disc list-outside pl-6">
+              <li>Opere strutturali in cemento armato o muratura</li>
+              <li>Scavi, fondazioni e impermeabilizzazioni</li>
+              <li>Murature, intonaci, tramezzi e massetti</li>
+              <li>Impiantistica certificata (elettrica, idraulica, termica)</li>
+              <li>Finiture interne ed esterne di alto livello</li>
+            </ul>
+            <p>
+              Grazie a uno staff tecnico qualificato e all’utilizzo di
+              tecnologie e attrezzature moderne, realizziamo nuove costruzioni
+              conformi alle normative antisismiche, con elevate prestazioni
+              energetiche e ottimo comfort abitativo. Siamo il partner ideale
+              per:
+            </p>
+            <ul className="list list-disc list-outside pl-6">
+              <li>Privati che desiderano costruire la propria casa</li>
+              <li>Imprese e professionisti del settore immobiliare</li>
+              <li>Enti pubblici che richiedono affidabilità e puntualità</li>
+              <p>
+                Contattaci per maggiori informazioni o per richiedere un
+                preventivo gratuito: saremo lieti di accompagnarti nella
+                realizzazione della tua prossima costruzione civile con serietà,
+                trasparenza e qualità certificata.
+              </p>
+            </ul>
             <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
               SCOPRI CHI SIAMO
             </p>
@@ -301,21 +340,40 @@ export default function Home() {
               RISTRUTTURAZIONE DI APPARTAMENTI
             </h2>
             <p>
-              La nostra impresa edile vanta una consolidata esperienza nel
-              settore delle costruzioni a Napoli e provincia, con interventi
-              specializzati che spaziano dagli scavi e fondazioni fino alla
-              realizzazione di strutture di supporto per impianti industriali ad
-              alta tecnologia. Nel corso degli anni abbiamo eseguito opere edili
-              complesse, distinguendoci per l&apos;affidabilità e l’attenzione
-              ai dettagli in ogni fase del progetto. In particolare, siamo
-              specializzati nella costruzione di basi, platee e fondazioni
-              armate per macchinari industriali a controllo numerico (CNC),
-              garantendo la massima precisione, stabilità e durata nel tempo.
+              Offriamo un servizio specializzato nella ristrutturazione chiavi
+              in mano di appartamenti a Napoli e provincia, curando ogni fase
+              dell’intervento con materiali di pregio, soluzioni tecniche
+              moderne e una manodopera altamente qualificata.
             </p>
             <p>
-              Da oltre 90 anni costruiamo il territorio napoletano: passione,
-              entusiasmo, impegno e forte senso di responsabilità. Valori e
-              principi che si tramandano da tre generazioni.
+              La nostra impresa edile garantisce risultati di alta qualità, sia
+              dal punto di vista estetico che funzionale, grazie a una gestione
+              integrata dei lavori, che comprende:
+            </p>
+            <ul className="list list-disc list-outside pl-6">
+              <li>Demolizioni e opere murarie</li>
+              <li>
+                Impianti idraulici e termo-sanitari a norma e ad alta efficienza
+              </li>
+              <li>
+                Impianti elettrici certificati con predisposizione per domotica
+              </li>
+              <li>
+                Pavimentazioni, rivestimenti, infissi e finiture di pregio
+              </li>
+              <li>Tinteggiature, controsoffitti e illuminazione integrata</li>
+            </ul>
+            <p>
+              Ogni progetto viene sviluppato su misura, con soluzioni
+              personalizzate che uniscono comfort, design e risparmio
+              energetico, nel pieno rispetto dei tempi e del budget concordato.
+              Collaboriamo con architetti, interior designer e fornitori
+              selezionati per offrire un risultato finale all’altezza delle
+              aspettative, valorizzando ogni spazio con attenzione ai dettagli e
+              alle esigenze del cliente. Contattaci per un sopralluogo e un
+              preventivo gratuito: siamo pronti ad accompagnarti in ogni fase
+              della ristrutturazione del tuo appartamento, con serietà,
+              competenza e qualità superiore.
             </p>
             <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
               SCOPRI CHI SIAMO
