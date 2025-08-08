@@ -38,8 +38,17 @@ export default function Home() {
               centinaia di opere edilizie, contribuendo attivamente allo
               sviluppo del territorio napoletano.
             </p>
+            <p>
+              Passione, impegno, responsabilità e professionalità sono i valori
+              che guidano ogni nostro progetto, tramandati da due generazioni e
+              radicati nella nostra cultura aziendale. Scegliere la nostra
+              impresa significa affidarsi a un team con una lunga tradizione
+              nella costruzione e ristrutturazione di edifici civili e
+              industriali, capace di offrire soluzioni su misura con la massima
+              qualità e attenzione al cliente.
+            </p>
             <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
-              SCOPRI CHI SIAMO
+              CONTATTACI
             </p>
           </div>
         </div>
@@ -66,16 +75,25 @@ export default function Home() {
             in diversi settori di costruzione
           </p>
           <p className="mt-4 text-white max-w-4xl">
-            Passione, impegno, responsabilità e professionalità sono i valori
-            che guidano ogni nostro progetto, tramandati da due generazioni e
-            radicati nella nostra cultura aziendale. Scegliere la nostra impresa
-            significa affidarsi a un team con una lunga tradizione nella
-            costruzione e ristrutturazione di edifici civili e industriali,
-            capace di offrire soluzioni su misura con la massima qualità e
-            attenzione al cliente.
+            Con oltre mezzo secolo di attività, la nostra impresa edile a Napoli
+            vanta un'esperienza solida e trasversale in diversi ambiti della
+            costruzione e ristrutturazione, sia nel settore pubblico che in
+            quello privato. Abbiamo affrontato con successo progetti complessi,
+            caratterizzati da sfide progettuali e realizzative di varia natura,
+            operando con la stessa professionalità sia nei lavori pubblici che
+            in iniziative immobiliari private, promosse da clienti nazionali e
+            internazionali. La nostra competenza spazia dalle costruzioni civili
+            e industriali alle riqualificazioni urbane, offrendo soluzioni su
+            misura per ogni esigenza costruttiva.
+          </p>
+          <p>
+            Contattaci oggi stesso per una consulenza personalizzata o un
+            preventivo gratuito: il nostro team sarà lieto di ascoltare le tue
+            esigenze e offrirti la migliore soluzione per i tuoi progetti edili
+            a Napoli e provincia.
           </p>
           <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm mt-6">
-            SCOPRI OPERE E SETTORI
+            CONTATTACI
           </p>
           <div className="w-full grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 mt-12 text-white">
             <div className="border-x-2 border-[rgb(118,255,0)] p-4">
@@ -152,9 +170,12 @@ export default function Home() {
               STED <span className="font-semibold">srl</span>
             </h1>
             <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
-              etica e professionalità nella costruzione
+              ESPERIENZA E COMPETENZA
             </h2>
-            <p>Oltre 1.200 opere edilizie eseguite a Napoli e provincia.</p>
+            <p>
+              Esperienza e competenza in costruzioni edili, scavi, fondazioni e
+              strutture per macchine CNC
+            </p>
             <p>
               Da oltre 90 anni costruiamo il territorio napoletano: passione,
               entusiasmo, impegno e forte senso di responsabilità. Valori e
