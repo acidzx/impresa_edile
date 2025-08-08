@@ -216,7 +216,130 @@ export default function Home() {
               STED <span className="font-semibold">srl</span>
             </h1>
             <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
-              ESPERIENZA E COMPETENZA
+              COSTRUZIONI INDUSTRIALI
+            </h2>
+            <p>
+              La nostra impresa edile vanta una consolidata esperienza nel
+              settore delle costruzioni a Napoli e provincia, con interventi
+              specializzati che spaziano dagli scavi e fondazioni fino alla
+              realizzazione di strutture di supporto per impianti industriali ad
+              alta tecnologia. Nel corso degli anni abbiamo eseguito opere edili
+              complesse, distinguendoci per l&apos;affidabilità e l’attenzione
+              ai dettagli in ogni fase del progetto. In particolare, siamo
+              specializzati nella costruzione di basi, platee e fondazioni
+              armate per macchinari industriali a controllo numerico (CNC),
+              garantendo la massima precisione, stabilità e durata nel tempo.
+            </p>
+            <p>
+              Da oltre 90 anni costruiamo il territorio napoletano: passione,
+              entusiasmo, impegno e forte senso di responsabilità. Valori e
+              principi che si tramandano da tre generazioni.
+            </p>
+            <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
+              SCOPRI CHI SIAMO
+            </p>
+          </div>
+        </div>
+        <div className="w-full lg:w-1/2">
+          <Image
+            src="https://grassiecrespi.it/images/_MG_1205.png"
+            alt="logo"
+            width={1000}
+            height={1000}
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+      <div className="flex flex-col lg:flex-row-reverse w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
+        <div className="w-full lg:w-1/2 ">
+          <div className="flex flex-col gap-y-4">
+            <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
+              STED <span className="font-semibold">srl</span>
+            </h1>
+            <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
+              COSTRUZIONI CIVILI
+            </h2>
+            <p>
+              La nostra impresa edile vanta una consolidata esperienza nel
+              settore delle costruzioni a Napoli e provincia, con interventi
+              specializzati che spaziano dagli scavi e fondazioni fino alla
+              realizzazione di strutture di supporto per impianti industriali ad
+              alta tecnologia. Nel corso degli anni abbiamo eseguito opere edili
+              complesse, distinguendoci per l&apos;affidabilità e l’attenzione
+              ai dettagli in ogni fase del progetto. In particolare, siamo
+              specializzati nella costruzione di basi, platee e fondazioni
+              armate per macchinari industriali a controllo numerico (CNC),
+              garantendo la massima precisione, stabilità e durata nel tempo.
+            </p>
+            <p>
+              Da oltre 90 anni costruiamo il territorio napoletano: passione,
+              entusiasmo, impegno e forte senso di responsabilità. Valori e
+              principi che si tramandano da tre generazioni.
+            </p>
+            <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
+              SCOPRI CHI SIAMO
+            </p>
+          </div>
+        </div>
+        <div className="w-full lg:w-1/2">
+          <Image
+            src="https://grassiecrespi.it/images/_MG_1205.png"
+            alt="logo"
+            width={1000}
+            height={1000}
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+      <div className="flex flex-col lg:flex-row w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
+        <div className="w-full lg:w-1/2 ">
+          <div className="flex flex-col gap-y-4">
+            <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
+              STED <span className="font-semibold">srl</span>
+            </h1>
+            <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
+              RISTRUTTURAZIONE DI APPARTAMENTI
+            </h2>
+            <p>
+              La nostra impresa edile vanta una consolidata esperienza nel
+              settore delle costruzioni a Napoli e provincia, con interventi
+              specializzati che spaziano dagli scavi e fondazioni fino alla
+              realizzazione di strutture di supporto per impianti industriali ad
+              alta tecnologia. Nel corso degli anni abbiamo eseguito opere edili
+              complesse, distinguendoci per l&apos;affidabilità e l’attenzione
+              ai dettagli in ogni fase del progetto. In particolare, siamo
+              specializzati nella costruzione di basi, platee e fondazioni
+              armate per macchinari industriali a controllo numerico (CNC),
+              garantendo la massima precisione, stabilità e durata nel tempo.
+            </p>
+            <p>
+              Da oltre 90 anni costruiamo il territorio napoletano: passione,
+              entusiasmo, impegno e forte senso di responsabilità. Valori e
+              principi che si tramandano da tre generazioni.
+            </p>
+            <p className="bg-[rgb(118,255,0)] px-4 py-2 w-fit font-medium text-sm">
+              SCOPRI CHI SIAMO
+            </p>
+          </div>
+        </div>
+        <div className="w-full lg:w-1/2">
+          <Image
+            src="https://grassiecrespi.it/images/_MG_1205.png"
+            alt="logo"
+            width={1000}
+            height={1000}
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+      <div className="flex flex-col lg:flex-row-reverse w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
+        <div className="w-full lg:w-1/2 ">
+          <div className="flex flex-col gap-y-4">
+            <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
+              STED <span className="font-semibold">srl</span>
+            </h1>
+            <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
+              LIFTING FABBRICATI
             </h2>
             <p>
               La nostra impresa edile vanta una consolidata esperienza nel
