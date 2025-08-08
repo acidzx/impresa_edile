@@ -30,5 +30,10 @@ async function getCloudinaryImages() {
 
 export default async function Page() {
   const images = await getCloudinaryImages();
-  return <ImageGrid images={images} />;
+  return (
+    <div className="flex flex-col items-center justify-center mx-auto max-w-screen-2xl">
+      <h1 className="text-4xl font-bold mb-4">Galleria immagini Sted Srl</h1>
+      <ImageGrid images={images} />
+    </div>
+  );
 }

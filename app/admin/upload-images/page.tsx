@@ -68,6 +68,7 @@ export default function Page() {
         setMessage(`Errore: ${data.message || "Qualcosa è andato storto."}`);
       }
     } catch (error) {
+      console.log(error);
       setStatus("error");
       setMessage("Errore di connessione con il server.");
     }
