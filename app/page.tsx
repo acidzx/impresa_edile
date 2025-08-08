@@ -222,8 +222,8 @@ export default function Home() {
               specializzati che spaziano dagli scavi e fondazioni fino alla
               realizzazione di strutture di supporto per impianti industriali ad
               alta tecnologia. Nel corso degli anni abbiamo eseguito opere edili
-              complesse, distinguendoci per l'affidabilità e l’attenzione ai
-              dettagli in ogni fase del progetto. In particolare, siamo
+              complesse, distinguendoci per l&apos;affidabilità e l’attenzione
+              ai dettagli in ogni fase del progetto. In particolare, siamo
               specializzati nella costruzione di basi, platee e fondazioni
               armate per macchinari industriali a controllo numerico (CNC),
               garantendo la massima precisione, stabilità e durata nel tempo.
