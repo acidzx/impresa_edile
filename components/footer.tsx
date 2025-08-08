@@ -122,7 +122,7 @@ export default function Footer() {
         </div>
 
         <p className="mt-10 text-center text-sm/6 text-white">
-          &copy; 2025 STED srl, Inc. All rights reserved.
+          &copy; 2025 STED srl, Inc. All rights reserved. Powered by TUSA.
         </p>
       </div>
     </footer>
