@@ -21,6 +21,53 @@ export default function Home() {
     <div className="font-sans">
       <Header />
 
+      <div className="flex flex-col lg:flex-row-reverse w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
+        <div className="w-full lg:w-1/2">
+          <div className="flex flex-col gap-y-4">
+            <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
+              STED <span className="font-semibold">srl</span>
+            </h1>
+            <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
+              chi siamo
+            </h2>
+            <p>Centinaia di opere edilizie eseguite a Napoli e provincia.</p>
+            <p>
+              La STED Srl nasce dall’esperienza e dalla passione per l’edilizia
+              del Geometra Antonio Lanzano, che nel 1990 ha scelto di
+              raccogliere e proseguire l’eredità professionale del padre, il
+              Geometra Gioacchino Lanzano, figura storica e stimata nel panorama
+              edilizio di Arzano.
+            </p>
+            <p>
+              In oltre trent’anni di attività, l’azienda ha saputo evolversi e
+              consolidarsi, sviluppando competenze trasversali in diversi
+              settori dell’edilizia. Oggi STED è un punto di riferimento per:
+            </p>
+            <ul className="list list-disc list-outside pl-6">
+              <li>Costruzioni industriali</li>
+              <li>Costruzioni civili</li>
+              <li>Ristrutturazione di appartamenti</li>
+              <li>Rifacimento facciate di fabbricati</li>
+            </ul>
+            <p>
+              Serietà, competenza e attenzione al cliente sono i valori che
+              guidano ogni nostro progetto, con l’obiettivo di garantire
+              soluzioni affidabili e di qualità nel rispetto dei tempi e delle
+              esigenze specifiche di ogni committente.
+            </p>
+          </div>
+        </div>
+        <div className="w-full lg:w-1/2">
+          <Image
+            src="https://grassiecrespi.it/images/_MG_1205.png"
+            alt="logo"
+            width={1000}
+            height={1000}
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+
       <div className="flex flex-col lg:flex-row w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
         <div className="w-full lg:w-1/2 ">
           <div className="flex flex-col gap-y-4">
@@ -161,52 +208,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row-reverse w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
-        <div className="w-full lg:w-1/2 ">
-          <div className="flex flex-col gap-y-4">
-            <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
-              STED <span className="font-semibold">srl</span>
-            </h1>
-            <h2 className="text-lg uppercase font-semibold bg-lime-200 w-fit px-2">
-              chi siamo
-            </h2>
-            <p>Oltre 1.200 opere edilizie eseguite a Napoli e provincia.</p>
-            <p>
-              La STED Srl nasce dall’esperienza e dalla passione per l’edilizia
-              del Geometra Antonio Lanzano, che nel 1990 ha scelto di
-              raccogliere e proseguire l’eredità professionale del padre, il
-              Geometra Gioacchino Lanzano, figura storica e stimata nel panorama
-              edilizio di Arzano.
-            </p>
-            <p>
-              In oltre trent’anni di attività, l’azienda ha saputo evolversi e
-              consolidarsi, sviluppando competenze trasversali in diversi
-              settori dell’edilizia. Oggi STED è un punto di riferimento per:
-            </p>
-            <ul className="list list-disc list-outside pl-6">
-              <li>Costruzioni industriali</li>
-              <li>Costruzioni civili</li>
-              <li>Ristrutturazione di appartamenti</li>
-              <li>Rifacimento facciate di fabbricati</li>
-            </ul>
-            <p>
-              Serietà, competenza e attenzione al cliente sono i valori che
-              guidano ogni nostro progetto, con l’obiettivo di garantire
-              soluzioni affidabili e di qualità nel rispetto dei tempi e delle
-              esigenze specifiche di ogni committente.
-            </p>
-          </div>
-        </div>
-        <div className="w-full lg:w-1/2">
-          <Image
-            src="https://grassiecrespi.it/images/_MG_1205.png"
-            alt="logo"
-            width={1000}
-            height={1000}
-            className="w-full h-full object-cover"
-          />
-        </div>
-      </div>
+
       <div className="flex flex-col lg:flex-row w-full items-center justify-center py-12 max-w-screen-2xl mx-auto gap-8 px-4">
         <div className="w-full lg:w-1/2 ">
           <div className="flex flex-col gap-y-4">
