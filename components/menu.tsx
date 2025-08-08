@@ -27,10 +27,10 @@ export default function Menu() {
           <span className="sr-only">Sted Srl</span>
           <Image
             alt=""
-            src="/logo.svg"
+            src="/logob.svg"
             width={200}
             height={100}
-            className="h-16 w-auto"
+            className="h-12 w-auto"
           />
         </Link>
         <div className="flex lg:hidden">
@@ -70,10 +70,10 @@ export default function Menu() {
               <span className="sr-only">Sted Srl</span>
               <Image
                 alt=""
-                src="/logo.svg"
+                src="/logob.svg"
                 width={200}
                 height={100}
-                className="h-12 w-auto"
+                className="h-10 w-auto"
               />
             </Link>
             <button
