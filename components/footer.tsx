@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const navigation = {
@@ -72,7 +73,7 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="bg-black">
+    <footer className="bg-gray-700/60">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
         <nav
           aria-label="Footer"
@@ -101,17 +102,25 @@ export default function Footer() {
             </Link>
           ))}
         </div>
-        <div className="mx-auto w-fit my-6 text-lime-400 text-center ">
-          <p>
-            <span className="font-semibold">STED srl</span> |{" "}
-            <span className="text-sm">P.Iva 10521091214</span>
-          </p>
+        <div className="mx-auto w-fit my-6 text-white text-center ">
+          <Image
+            alt=""
+            src="/risorsa_4.svg"
+            width={200}
+            height={100}
+            className="h-16 w-auto mx-auto mb-6"
+          />
           <p>
             <span className="text-sm">
               Via G.Parisi, 30 - 80022 Arzano (Napoli)
             </span>
           </p>
+          <p>
+            {/* <span className="font-semibold">STED srl</span> |{" "} */}
+            <span className="text-sm">P.Iva 10521091214</span>
+          </p>
         </div>
+
         <p className="mt-10 text-center text-sm/6 text-white">
           &copy; 2025 STED srl, Inc. All rights reserved.
         </p>

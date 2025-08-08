@@ -27,7 +27,7 @@ export default function Menu() {
           <span className="sr-only">Sted Srl</span>
           <Image
             alt=""
-            src="/logo.jpg"
+            src="/logo.svg"
             width={200}
             height={100}
             className="h-14 w-auto"
@@ -70,7 +70,7 @@ export default function Menu() {
               <span className="sr-only">Sted Srl</span>
               <Image
                 alt=""
-                src="/logo.jpg"
+                src="/logo.svg"
                 width={200}
                 height={100}
                 className="h-12 w-auto"
