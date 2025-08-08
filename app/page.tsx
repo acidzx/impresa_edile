@@ -130,7 +130,7 @@ export default function Home() {
             costruzioni civili e industriali alle riqualificazioni urbane,
             offrendo soluzioni su misura per ogni esigenza costruttiva.
           </p>
-          <p>
+          <p className="mt-4 text-white max-w-4xl">
             Contattaci oggi stesso per una consulenza personalizzata o un
             preventivo gratuito: il nostro team sarà lieto di ascoltare le tue
             esigenze e offrirti la migliore soluzione per i tuoi progetti edili
