@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { MenuIcon, XIcon } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -20,15 +21,17 @@ export default function Menu() {
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
       >
         <Link href="/" className="-m-1.5 p-1.5">
-          <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
+          {/* <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
             STED <span className="font-semibold">srl</span>
-          </h1>
+          </h1> */}
           <span className="sr-only">Sted Srl</span>
-          {/* <img
+          <Image
             alt=""
-            src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=lime&shade=400"
-            className="h-8 w-auto"
-          /> */}
+            src="/logo.jpg"
+            width={200}
+            height={100}
+            className="h-14 w-auto"
+          />
         </Link>
         <div className="flex lg:hidden">
           <button
@@ -61,15 +64,17 @@ export default function Menu() {
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link href="#" className="-m-1.5 p-1.5">
-              <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
+              {/* <h1 className="text-2xl font-black underline decoration-2 underline-offset-4 decoration-[rgb(118,255,0)] tracking-tighter">
                 STED <span className="font-semibold">srl</span>
-              </h1>
+              </h1> */}
               <span className="sr-only">Sted Srl</span>
-              {/* <img
+              <Image
                 alt=""
-                src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=lime&shade=400"
-                className="h-8 w-auto"
-              /> */}
+                src="/logo.jpg"
+                width={200}
+                height={100}
+                className="h-12 w-auto"
+              />
             </Link>
             <button
               type="button"
